@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800&display=swap');
+@import "./variables.scss";
+html {
+  font-size: 10px;
+}
+
+*:not(i) {
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+  padding-bottom: 4rem;
+  background-color: $mainblack;
+}
+
+p {
+  font-size: 14px;
+  color: #8b949e; 
+  font-weight: 500;
+
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+}
+
+.btn-check:active+.btn-primary:focus,
+.btn-check:checked+.btn-primary:focus,
+.btn-primary.active:focus,
+.btn-primary:active:focus,
+.show>.btn-primary.dropdown-toggle:focus {
+  box-shadow: unset !important;
+}
+
+
+.inputLabel_container {
+  input {
+    max-width: 400px;
+  }
+}

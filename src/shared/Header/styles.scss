@@ -1,0 +1,16 @@
+@import "../../variables.scss";
+
+.header {
+    padding: 4.5rem;
+    background-color: $maingray;
+
+    h1 {
+        color: #c9d1d9;
+        margin-bottom: 1rem;
+        font-size: 3.3rem;
+    }
+
+    p {
+        font-size: 1.7rem;
+    }
+}

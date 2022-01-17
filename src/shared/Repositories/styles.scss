@@ -1,0 +1,96 @@
+@import "../../variables.scss";
+
+
+.trending {
+    margin-top: 4rem;
+
+    &-container {
+        border: 1px solid $bordergray;
+        border-radius: 5px;
+    }
+
+    .nav {
+        background-color: $maingray;
+        padding: 2rem;
+        border-bottom: 1px solid $bordergray;
+
+        .nav-link {
+            border: 1px solid $bordergray;
+            color: $white;
+            font-size: 1.2rem;
+
+            &.active {
+                background-color: $secondryBlue;
+            }
+        }
+
+        .dropdown {
+            button {
+                background-color: transparent;
+                border: none;
+                color: $white;
+                font-size: 1.3rem;
+                text-transform: capitalize;
+            }
+        }
+    }
+
+    &-main {
+        .repo {
+            color: $textgray;
+            padding: 2rem;
+            border-bottom: 1px solid $bordergray;
+
+            &-link {
+                color: $mainblue;
+                font-size: 2rem;
+                transition: all ease-in cubic-bezier(0.075, 0.82, 0.165, 1);
+                text-decoration: unset;
+
+                &:hover {
+                    text-decoration: underline;
+                    color: $mainblue;
+                }
+
+            }
+
+            i {
+                margin-right: 4px !important;
+                font-size: 1.2rem;
+                color: $textgray;
+            }
+
+            &-desc {
+                font-size: 1.2rem;
+                margin: 1rem 0;
+            }
+
+            &-numbers {
+                align-items: center;
+                font-size: 1.1rem;
+                & >span {
+                    margin-right: 1.5rem;
+                }
+            }
+
+            &-builtBy {
+                align-items: center;
+
+                span {
+                    margin-right: .5rem;
+                }
+                a {
+                    margin-right: .5rem;
+                    width: 2.2rem;
+                    height: 2.2rem;
+                    border-radius: 50%;
+                    overflow: hidden;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
