@@ -1,1 +1,1 @@
-Live Preview : https://shadyagamy.github.io/reactLanding/
+Live Preview : https://shadyagamy.github.io/github-trending-clone/
