@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/github-trending-clone/static/css/main.0038215b.css",
+    "main.js": "/github-trending-clone/static/js/main.697ff852.js",
+    "static/js/787.ba3f4004.chunk.js": "/github-trending-clone/static/js/787.ba3f4004.chunk.js",
+    "index.html": "/github-trending-clone/index.html",
+    "main.0038215b.css.map": "/github-trending-clone/static/css/main.0038215b.css.map",
+    "main.697ff852.js.map": "/github-trending-clone/static/js/main.697ff852.js.map",
+    "787.ba3f4004.chunk.js.map": "/github-trending-clone/static/js/787.ba3f4004.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0038215b.css",
+    "static/js/main.697ff852.js"
+  ]
+}
