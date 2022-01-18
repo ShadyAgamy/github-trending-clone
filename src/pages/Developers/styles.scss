@@ -1,0 +1,56 @@
+@import "../../variables.scss";
+
+.repo_developer {
+    .number {
+        align-self: flex-start;
+        
+    }
+    &-link {
+        text-decoration: unset;
+        img {
+            width: 5rem;
+            height: 5rem;
+            border-radius: 50%;
+            margin: 0 2rem;
+        }
+
+        .name {
+           
+         
+            span:first-of-type {
+                color: $mainblue;
+                font-size: 1.7rem;
+            }
+
+            span:last-of-type {
+               color: $textgray;
+               font-size: 1.2rem;
+            }
+        }
+    }
+
+    .popular_repo{
+        h6 {
+            font-size: 1rem;
+            color: $textgray;
+            i {
+                color: #db6d28;
+                margin-right: .4rem;
+            }
+        }
+
+       
+
+        a {
+            color: $mainblue;
+            font-size: 1.3rem;
+            margin:  .8rem 0;
+
+            &:hover {
+                color: $mainblue;
+                text-decoration: underline;
+                cursor: pointer;
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.dev_btns {
+    flex-wrap: nowrap;
+    justify-content: end;
+    align-items: center;
+
+    button {
+        &:first-of-type {
+            margin-right: 1rem;
+
+            i {
+                color: #db61a2;
+            }
+        }
+    }
+}

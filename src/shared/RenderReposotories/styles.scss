@@ -1,0 +1,16 @@
+@import "../../variables.scss";
+
+.giveStar {
+    button {
+        background-color: #21262D;
+        border-radius: 5px;
+        border: 1px solid $bordergray;
+        margin-bottom: 3rem;
+        color: $textgray;
+        padding: .6rem 1rem;
+    }
+
+    span {
+
+    }
+}
